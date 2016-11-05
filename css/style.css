@@ -1,7 +1,7 @@
 html {
   font-size: 14px;
   font-family: Arial, Verdana;
-  line-height: 1.5em;
+  line-height: 1.3em;
 }
 
 .modal {
@@ -32,7 +32,7 @@ html {
   border-radius: 2px;
   font-size: 12px;
   font-weight: bold;
-  padding: 3px;
+  padding: 2px;
   margin: 0 50px;
 }
 
@@ -44,7 +44,7 @@ html {
 .modal .position {
   color: #777777;
   margin-bottom: 25px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .modal hr {
@@ -71,6 +71,19 @@ html {
 
 .modal .buttons {
   padding: 8px;
+}
+
+.modal .buttons button {
+  margin: 0 2px;
+}
+
+.modal .photo {
+  margin: 10px 0;
+}
+
+.modal .photo img {
+  vertical-align: top;
+  margin: 0 6px;
 }
 
 .italic {
