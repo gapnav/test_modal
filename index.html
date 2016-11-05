@@ -3,18 +3,32 @@
 <head>
 </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="jquery_modal/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
-  <link rel="stylesheet" href="jquery_modal/jquery.modal.css" type="text/css" media="screen" />
+  <script src="js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/jquery.modal.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 </head>
 <body>
 
   <!-- Modal HTML embedded directly into document -->
-  <div id="ex1" style="display:none;">
-    <p>Thanks for clicking.  That felt good.  <a href="#" rel="modal:close">Close</a> or press ESC</p>
+  <div id="modal" style="display:none;">
+    <div class="title">Attendee status</div>
+    <div class="status">Pending</div>
+    <div class="name">Matthew Benton</div>
+    <div class="position">
+      STA
+      <br>SCT
+      <br><i>Managing Director</i>
+    </div>
+    <hr>
+    <div class="buttons">
+      <button class="btn btn-green">Accept</button>
+      &nbsp;<button class="btn btn-green">Decline</button>
+      &nbsp;<button class="btn btn-green">Waitlist</button>
+    </div>
   </div>
 
   <!-- Link to open the modal -->
-  <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+  <p><a href="#modal" rel="modal:open">Open Modal</a></p>
 
 </body>
 </html>
